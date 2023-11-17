@@ -1,0 +1,210 @@
+html,body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    
+}
+.home{
+    overflow-y: hidden;
+    background-image: url(../images/pic-05.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.header{
+    overflow-y: hidden;
+}
+.home::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(0,0,0,.3);
+    width: 100%;
+    height: 100%;
+}
+.home .logo-holder{
+    position: absolute;
+    top: -100px;
+    left: 0px;
+    z-index: 12;
+}
+.home .main-heading{
+    text-align: center;
+    position: relative;
+    display: block;
+    max-width: -webkit-fill-available;
+    margin-inline: 20px;
+    
+}
+.home .main-heading .slogan{
+    color: white;
+    font-size: 60px;
+    line-height: 88px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px;
+}
+@media (max-width: 768px) {
+    /* Adjust the styling for screens with a maximum width of 768 pixels */
+    .home .main-heading .slogan {
+        font-size: 30px; /* Adjust the font size as needed */
+        line-height: 50px; /* Adjust the line height as needed */
+    }
+}
+.whatsapp-icon{
+    position: fixed;
+    left: 40px;
+    bottom: 40px;
+    z-index: 111;
+    
+}
+
+/* start overview */
+
+.overview{
+    padding: 30px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.overview .image-holder{
+    max-width: 500px;
+    height: 500px;
+   
+}
+.overview .image-holder img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.overview .text-box{
+    padding: 35px;
+    max-width: 400px;
+    background-color: white;
+    transform: translate(-170px,50px);
+    border-radius: 10px;
+    
+}
+@media (max-width: 768px) {
+    .overview .text-box{
+        transform: none;
+    }
+    }
+
+/* end overview */
+
+/* start us  */
+
+.us{
+    padding: 30px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.us .content{
+   margin-left: 40px;
+   margin-bottom: 25px;
+}
+
+/* end us  */
+
+/* start goals  */
+
+.goals{
+    padding: 30px;
+    margin-top: 40px;
+}
+.goals .row{
+    display: flex;
+    justify-content: center;
+}
+.goals .first-col .content{
+    border-right: 1px solid black;
+    margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+    .goals .first-col .content{
+        border: none;
+    }
+    }
+
+/* end goals  */
+
+/* start services  */
+
+.services{
+    padding: 30px;
+    margin-top: 40px;
+}
+.services .content .text-box{
+   margin-top: 30px;
+}
+
+/* end services  */
+.key{
+    padding: 30px;
+    margin-top: 40px;
+
+}
+.key .image-holder{
+    width: 500px;
+    height: 400px;
+}
+.key .image-holder img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.key .text-box{
+    padding: 35px;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 24px;
+
+}
+
+/* start features  */
+
+.features{
+
+    margin-top: 40px;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blure(60);
+    position: relative;
+    min-height: 50vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+}
+.features::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(0,0,0,.3);
+    width: 100%;
+    height: 100%;
+}
+.features .main-heading{
+    padding: 15px;
+}
+.features .text-box{
+    width: 500px;
+    font-size: 20px;
+}
+/* end features  */
+footer{
+    padding-block: 20px;
+    background-color: black;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
