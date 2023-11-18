@@ -52,7 +52,7 @@ body{
 @media (max-width: 768px) {
     /* Adjust the styling for screens with a maximum width of 768 pixels */
     .home .main-heading .slogan {
-        font-size: 30px; /* Adjust the font size as needed */
+        font-size: 40px; /* Adjust the font size as needed */
         line-height: 50px; /* Adjust the line height as needed */
     }
 }
@@ -193,6 +193,7 @@ body{
 }
 .features .main-heading{
     padding: 15px;
+    font-size:50px
 }
 .features .text-box{
     max-width: 500px;
