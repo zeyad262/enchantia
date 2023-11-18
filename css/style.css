@@ -9,7 +9,8 @@ body{
 }
 .home{
     overflow-y: hidden;
-    background-image: url(../images/pic-05.jpg);
+    background-image: url(../images/home.jpeg);
+    background-position: center;
     background-size: cover;
     min-height: 100vh;
     display: flex;
@@ -173,7 +174,8 @@ body{
 .features{
 
     margin-top: 40px;
-    background-image: url(../images/1.jpg);
+    background-image: url(../images/last.jpeg);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     backdrop-filter: blure(60);
